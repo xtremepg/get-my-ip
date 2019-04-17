@@ -1,16 +1,20 @@
 <html>
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Get My Ip</title>
     
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+        <!-- Custom Style -->
+        <link rel="stylesheet" href="assets/css//app.css"/>
     </head>
     <body>
         <header>
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="/">Rogerio Batista</a>
+                <a class="navbar-brand" href="/">Get My Ip</a>
                 
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -36,15 +40,15 @@
                 </div>
             </nav> 
         </header>
-        <div class="row">
+        <div class="row m-0">
             <div class="container">
                 <h1 class="text-center mt-5">Get My IP</h1>
                 <div class="row d-flex justify-content-center mt-5">
                     <div class="col-lg-6 p-2">
-                        <button class="btn btn-info btn-block btn-ip" data-version="v4">Click to get your Ip V4 address</button>
+                        <button class="btn btn-info btn-block p-3 btn-ip" data-version="v4">Click to get your Ip V4 address</button>
                     </div>
                     <div class="col-lg-6 p-2">
-                        <button class="btn btn-success btn-block btn-ip" data-version="v6">Click to get your Ip V6 address</button>
+                        <button class="btn btn-success btn-block p-3 btn-ip" data-version="v6">Click to get your Ip V6 address</button>
                     </div>
                     <div class="col-lg-12 mt-5 text-center">
                         <div id="ip-result" class="collapse"></div>
