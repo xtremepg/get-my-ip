@@ -15,6 +15,6 @@ function obterUrl(version) {
 
 function obterIp(url) {
     $.get(url, function(response) {
-        $('#ip-result').html('<h2>Your Ip Address is: <strong>' + response.ip + '</strong></h2>').collapse();
+        $('.resultado-ip').html(response.ip).collapse();
     });
 }

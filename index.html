@@ -2,56 +2,63 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Get My Ip</title>
+        <title>Seu IP</title>
     
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+        <!-- Fonte Awesome 5 Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
         <!-- Custom Style -->
         <link rel="stylesheet" href="assets/css//app.css"/>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <!-- Brand -->
-                <a class="navbar-brand" href="/">Get My Ip</a>
-                
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" target="_BLANK" href="https://www.facebook.com/rogeriobatistadev/">Facebook</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_BLANK" href="https://www.youtube.com/channel/UCL1izI4AjIe3AhWQsL9of4A">YouTube</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_BLANK" href="https://www.linkedin.com/in/rogerio-batista-jr/">LinkedIn</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_BLANK" href="https://github.com/xtremepg">GitHub</a>
-                        </li>
-                    </ul>
+            <nav>
+                <div class="row m-0 p-0">
+                    <div class="container">
+                        <!-- Brand -->
+                        <div class="menu-title mt-1">
+                            <a href="/">Seu IP</a>
+                        </div>
+
+                        <!-- Navbar links -->
+                        <div class="menu-links">
+                            <ul class="list-links m-0 p-0">
+                                <li class="link-item">
+                                    <a target="_BLANK" href="https://www.facebook.com/rogeriobatistadev/" class="link">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li class="link-item">
+                                    <a target="_BLANK" href="https://www.youtube.com/channel/UCL1izI4AjIe3AhWQsL9of4A" class="link">
+                                        <i class="fab fa-youtube-square"></i>
+                                    </a>
+                                </li>
+                                <li class="link-item">
+                                    <a target="_BLANK" href="https://www.linkedin.com/in/rogerio-batista-jr/" class="link">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="link-item">
+                                    <a target="_BLANK" href="https://github.com/xtremepg" class="link">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </nav> 
+            </nav>
         </header>
+
         <div class="row m-0">
             <div class="container">
-                <h1 class="text-center mt-5">Get My IP</h1>
                 <div class="row d-flex justify-content-center mt-5">
-                    <div class="col-lg-6 p-2">
-                        <button class="btn btn-info btn-block p-3 btn-ip" data-version="v4">Click to get your Ip V4 address</button>
-                    </div>
-                    <div class="col-lg-6 p-2">
-                        <button class="btn btn-success btn-block p-3 btn-ip" data-version="v6">Click to get your Ip V6 address</button>
-                    </div>
-                    <div class="col-lg-12 mt-5 text-center">
-                        <div id="ip-result" class="collapse"></div>
+                    <div class="col-lg-5 mt-5 text-center">
+                        <h3>Seu endere&ccedil;o de IP</h3>
+                        <div class="resultado-ip mt-5"></div>
                     </div>
                 </div>
             </div>

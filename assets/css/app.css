@@ -2,6 +2,74 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    background-color: #6c757d;
+    background-color: #f0f0f0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #dedee0;
+}
+
+nav a{
+    color: #111113;
+}
+
+.menu-title {
+    width: 100px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.menu-title a {
+    font-size: 30px;
+    font-weight: 900;
+    color: #f45042;
+}
+
+.menu-title a:hover {
+    text-decoration: none;
+}
+
+.menu-links {
+    width: 300px;
+    display: block;
+    position: relative;
+    float: right;
+    padding: 0;
+}
+
+.list-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+    float: right;
+}
+
+.link-item {
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    font-size:36px;
+}
+
+.link:hover {
+    color: #f45042;
+}
+
+.resultado-ip {
+    font-size: 60px;
+    font-weight: bolder;
+    background-color: #dedee0;
+    color: #f45042;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
 }
